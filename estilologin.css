@@ -1,0 +1,94 @@
+body, ul, li, p{
+
+    margin: 0px;    
+    padding: 0px;
+    list-style: none;
+    font-size: 1.2rem;
+    font-family: Arial;
+
+}
+
+.logo {
+    max-width: 200px;
+    max-height: auto;
+    
+  }
+
+a{
+
+    text-decoration: none;
+    color: white;
+    
+}
+
+
+.header .container-fluid {
+    background: #1e1e1e;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 4px solid #8A8AFF;
+
+}
+
+.d-flex{
+    
+    width: 700px;
+    margin: 15px 150px 0 50px
+    
+}
+.d-flex .btn-btn-outline-success{
+    color: white;
+    background-color: blue;
+    border-radius: 8px;
+    border-style: none;
+    
+    
+}
+
+.menu .botao .buttonlogin {
+  color: white;
+  background-color: blue;
+  border-radius: 8px;
+  padding: 8px 12px;
+  transition: 0.3s;
+  
+}
+
+.menu {
+    display: flex;
+    
+}
+
+.menu .navegaçao{
+    display: flex;
+}
+
+.menu li {
+    margin-left: 10px;
+    margin-top: 15px;
+    
+}
+
+.menu .navegaçao :hover{
+    color: #8A8AFF;
+}
+
+.menu li a {
+    display:block;
+    padding: 10px;
+    text-decoration: none;
+}
+/* HEADER */
+
+form{
+ width: 500px;
+ margin: 200px auto;
+ padding: 50px;
+ color: white;
+ background-color: #1e1e1e;
+ border-radius: 10px;
+ 
+}
