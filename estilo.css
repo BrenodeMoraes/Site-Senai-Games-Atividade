@@ -34,7 +34,7 @@ a {
     justify-content: space-around;
     align-items: center;
     padding: 20px;
-    border-bottom: 4px solid #8A8AFF;
+    border-bottom: 4px solid orange;
 
 }
 
@@ -89,37 +89,93 @@ a {
 
 /*estilos header*/
 
+/* banners */
+.banners {
+    margin-top: 20px;
+}
+
+.banners img {
+    width: 1280px;
+    height: 675px;
+}
+
+
+
+
 /* Corpo */
 
 
-.grade{
+.grade {
     margin: 50px 50px 50px 50px;
     padding: 35px 35px 35px 35px;
-    background-color: yellow;
+    background-color: #1e1e1e;
+    color: black;
+    flex-direction: column;
+    align-items: center;
     display: flex;
-    width: 90%;
+    flex-wrap: wrap;
+    width: 95%;
     justify-content: space-around;
 }
+
 .corpo {
-    background-color: pink;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-    
 
 }
 
-.anuncio{
+.anuncio {
     background-color: blue;
 }
+
 .anuncio img {
     width: 640px;
 }
 
+.cards {
+    display: flex;
+
+
+}
+
+.cards .card {
+    margin-left: 20px;
+
+}
+
+.card-text {
+    color: orange;
+    font-weight: 800;
+}
+
+
+.rpv {
+    width: max-content;
+    color: orange;
+    border-radius: 8px;
+    padding: 3px 6px;
+    font-weight: 900;
+
+}
+
+/* recomendados box 
 .recomendados {
     background-color: green;
 
 }
+*/
+.mvs {
+    width: max-content;
+    color: orange;
+    border-radius: 8px;
+    padding: 3px 6px;
+    margin-top: 40px;
+    font-weight: 900;
+
+}
+
+/* vendidos box 
 
 .vendidos {
     background-color: red;
@@ -129,6 +185,33 @@ a {
     width: 250px;
 
 }
+*/
+
+/* departamentos */
+.dp{
+    margin-top: 100px;
+    width: max-content;
+    color: orange;
+    border-radius: 8px;
+    padding: 3px 6px;
+    font-weight: 900;
+}
+.departamentos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    
+    
+
+}
+
+.departamentos .card{
+    margin-left: 20px;
+    
+}
+
+
 
 
 /* footer */
@@ -137,7 +220,7 @@ a {
 
     color: white;
     background-color: #1e1e1e;
-    border-top: 4px solid #8A8AFF;
+    border-top: 4px solid orange;
 
 
 }

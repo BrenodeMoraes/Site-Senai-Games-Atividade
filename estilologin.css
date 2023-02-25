@@ -83,6 +83,7 @@ a{
 }
 /* HEADER */
 
+/* FORM */
 form{
  width: 500px;
  margin: 200px auto;
@@ -90,5 +91,10 @@ form{
  color: white;
  background-color: #1e1e1e;
  border-radius: 10px;
+
  
+}
+
+form p{
+    margin-top: 20px;
 }

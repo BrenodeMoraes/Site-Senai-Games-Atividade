@@ -11,6 +11,7 @@
     <meta name="author" content="Breno 'Tildo' de Moraes">
 
     <link rel="stylesheet" href="estilo.css">
+    <link rel="script" href="script.js">
 
     <title>Senai Games</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -48,31 +49,229 @@
 
         </div>
     </header>
+    <div class="banners">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="Imagens/elden ring.png" class="d-block w-100" alt="Elden Ring">
+                </div>
+                <div class="carousel-item">
+                    <img src="Imagens/videogames.png" class="d-block w-100" alt="Videogame xbox e controle">
+                </div>
+                <div class="carousel-item">
+                    <img src="Imagens/thelastofushbo.png" class="d-block w-100" alt="série hbo the last of us">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+
+
+
+
     <section class="grade">
+        <!-- legacy anuncio 
         <div class="anuncio">
             <img src="imagens/elden ring.png">
         </div>
-
+-->
         <div class="corpo">
 
+
+            <li>
+                <p class="rpv">RECOMENDADOS PARA VOCÊ</p>
+            </li>
+
+            <div class="cards">
+                <div class="card" style="width: 16rem;">
+                    <img src="Imagens/monitort350.png" class="card-img-top" alt="Monitor T350">
+                    <div class="card-body">
+                        <h5 class="card-title">Monitor T350</h5>
+                        <p class="card-text">R$ 1.350,00</p>
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 16rem;">
+                    <img src="Imagens/processador.png
+                    " class="card-img-top" alt="Processador Ryzen 5">
+                    <div class="card-body">
+                        <h5 class="card-title">Processador Ryzen 5</h5>
+                        <p class="card-text">R$ 1.150,00</p>
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 16rem;">
+                    <img src="Imagens/acernitro5.png" class="card-img-top" alt="Notebook Acer">
+                    <div class="card-body">
+                        <h5 class="card-title">Notebook Acer Nitro 5</h5>
+                        <p class="card-text">R$ 3.650,99</p>
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 16rem;">
+                    <img src="Imagens/havith2002d.png" class="card-img-top" alt="Headset Havit">
+                    <div class="card-body">
+                        <h5 class="card-title">Headset Havit H2002D</h5>
+                        <p class="card-text">R$ 219,99</p>
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- legacy produtos 
             <div class="recomendados imagens">
-                <img src="Imagens/ps5.png">
+                <img src="Imagens/ps5.png"> 
                 <img src="Imagens/ps5.png">
                 <img src="Imagens/ps5.png">
                 <img src="Imagens/ps5.png">
 
 
             </div>
+-->
+            <li>
+                <p class="mvs">MAIS VENDIDOS DA SEMANA</p>
+            </li>
+            <div class="cards">
+                <div class="card" style="width: 16rem;">
+                    <img src="Imagens/ps5.png" class="card-img-top" alt="Playstation 5">
+                    <div class="card-body">
+                        <h5 class="card-title">Playstation 5</h5>
+                        <p class="card-text">R$ 4.999,99</p>
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 16rem;">
+                    <img src="Imagens/placavideo.png
+                    " class="card-img-top" alt="Playstation 5">
+                    <div class="card-body">
+                        <h5 class="card-title">RX570 AORUS</h5>
+                        <p class="card-text">R$ 989,99</p>
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 16rem;">
+                    <img src="Imagens/processadorintel.png" class="card-img-top" alt="Playstation 5">
+                    <div class="card-body">
+                        <h5 class="card-title">Processador Intel I5 10ª Geração</h5>
+                        <p class="card-text">R$ 1.199,99</p>
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 16rem;">
+                    <img src="Imagens/tloujogo.png" class="card-img-top" alt="The last of us remastered">
+                    <div class="card-body">
+                        <h5 class="card-title">The Last Of Us Remastered</h5>
+                        <p class="card-text">R$ 69,99</p>
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                    </div>
+                </div>
+            </div>
+            <!-- legacy produtos 
             <div class="vendidos imagens">
                 <img src="Imagens/ps5.png">
                 <img src="Imagens/ps5.png">
                 <img src="Imagens/ps5.png">
                 <img src="Imagens/ps5.png">
-                
+
             </div>
+        -->
+        </div>
+
+        <li>
+            <p class="dp">DEPARTAMENTOS</p>
+        </li>
+
+        <div class="departamentos">
+
+
+            <div class="card" style="width: 14rem;">
+                <a href="#">
+                    <img src="Imagens/placavideo.png" class="card-img-top" alt="departamento de hardware">
+                    <div class="card-body">
+                        <p class="card-text">Hardware</p>
+                    </div>
+                </a>
+            </div>
+
+
+
+            <div class="card" style="width: 14rem;">
+                <a href="#">
+                    <img src="Imagens/havith2002d.png" class="card-img-top" alt="departamento de periféricos">
+                    <div class="card-body">
+                        <p class="card-text">Periféricos</p>
+                    </div>
+                </a>
+            </div>
+
+
+
+            <div class="card" style="width: 14rem;">
+                <a href="#">
+                    <img src="Imagens/ps5.png" class="card-img-top" alt="departamento de videogames">
+                    <div class="card-body">
+                        <p class="card-text">Videogames</p>
+                    </div>
+                </a>
+            </div>
+
+
+
+
+
+            <div class="card" style="width: 14rem;">
+                <a href="#">
+                    <img src="Imagens/acernitro5.png" class="card-img-top" alt="departamento de notebooks">
+                    <div class="card-body">
+                        <p class="card-text">Notebooks</p>
+                    </div>
+                </a>
+            </div>
+
+
+
+            <div class="card" style="width: 14rem;">
+                <a href="#">
+                    <img src="Imagens/celular.png" class="card-img-top" alt="departamento de celulares">
+                    <div class="card-body">
+                        <p class="card-text">Celulares </p>
+                    </div>
+                </a>
+            </div>
+
+
+
+            <div class="card" style="width: 14rem;">
+                <a href="#">
+                    <img src="Imagens/cadeira.png" class="card-img-top" alt="departamento de Cadeiras">
+                    <div class="card-body">
+                        <p class="card-text">Cadeiras</p>
+                    </div>
+                </a>
+            </div>
+
+
 
         </div>
     </section>
+
 
     <footer class="rodape">
         <div class="form">
