@@ -1,6 +1,9 @@
-body, ul, li, p{
+body,
+ul,
+li,
+p {
 
-    margin: 0px;    
+    margin: 0px;
     padding: 0px;
     list-style: none;
     font-size: 1.2rem;
@@ -11,14 +14,14 @@ body, ul, li, p{
 .logo {
     max-width: 200px;
     max-height: auto;
-    
-  }
 
-a{
+}
+
+a {
 
     text-decoration: none;
     color: white;
-    
+
 }
 
 
@@ -33,68 +36,116 @@ a{
 
 }
 
-.d-flex{
-    
+.d-flex {
+
     width: 700px;
     margin: 15px 150px 0 50px
-    
 }
-.d-flex .btn-btn-outline-success{
+
+.d-flex .btn-btn-outline-success {
     color: white;
     background-color: blue;
     border-radius: 8px;
     border-style: none;
-    
-    
+
+
 }
 
 .menu .botao .buttonlogin {
-  color: white;
-  background-color: blue;
-  border-radius: 8px;
-  padding: 8px 12px;
-  transition: 0.3s;
-  
+    color: white;
+    background-color: blue;
+    border-radius: 8px;
+    padding: 8px 12px;
+    transition: 0.3s;
+
 }
 
 .menu {
     display: flex;
-    
+
 }
 
-.menu .navegaçao{
+.menu .navegaçao {
     display: flex;
 }
 
 .menu li {
     margin-left: 10px;
     margin-top: 15px;
-    
+
 }
 
-.menu .navegaçao :hover{
+.menu .navegaçao :hover {
     color: #8A8AFF;
 }
 
 .menu li a {
-    display:block;
+    display: block;
     padding: 10px;
     text-decoration: none;
 }
+
 /* HEADER */
 
 /* FORM */
-form{
- width: 500px;
- margin: 200px auto;
- padding: 50px;
- color: white;
- background-color: #1e1e1e;
- border-radius: 10px;
 
- 
+.formlogin{
+    margin-left: 400px;
+    
+
+}
+form {
+    width: 500px;
+    margin: 200px auto;
+    padding: 50px;
+    color: white;
+    background-color: #1e1e1e;
+    border-radius: 10px;
+
+
 }
 
-form p{
+form p {
     margin-top: 20px;
 }
+
+/* cadastro */
+
+#section-login {
+    margin-top: 100px;
+    
+
+}
+
+#section-login h1 {
+    text-align: center;
+}
+
+#section-login input {
+    width: 100%;
+}
+
+#botao-cadastrar{
+    position: relative;
+    bottom: 258px;
+    right: 139px;
+    
+}
+
+/* cadastro */
+
+#section-cadastro{
+    padding: 5px;
+    text-align: center;
+    background-color: #fff ;
+    margin-left: 310px;
+
+}
+
+#form-cadastrar{
+    padding: 50px;
+    margin-left: 200px;
+    display: none;
+    
+}
+
