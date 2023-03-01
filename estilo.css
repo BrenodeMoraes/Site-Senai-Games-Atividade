@@ -40,7 +40,7 @@ a {
 .d-flex {
 
     width: 700px;
-    margin: 15px 150px 0 50px
+    /*  margin: 15px 150px 0 50px */
 }
 
 .d-flex .btn-btn-outline-success {
@@ -251,7 +251,7 @@ a {
 }
 
 @media screen and (max-width:1493px min-width:1403px){
-    .header{width:80%;}
+  /*.header{width:80%;} */
     .container-fluid{width: 100%;}
     .navbar{width: 100%;}
     .departamentos .card{
